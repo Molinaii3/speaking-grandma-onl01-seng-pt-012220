@@ -14,12 +14,10 @@
 
 speak_to_grandma = "I LOVE YOU GRANDMA!"
 
-  if speak_to_grandma(says) == "I LOVE YOU GRANDMA!"
+  if speak_to_grandma == "I LOVE YOU GRANDMA!"
   puts "I LOVE YOU PUMPKIN!"
-  elsif speak_to_grandma(shouts) == "I LOVE YOU GRANDMA!"
+  elsif speak_to_grandma == "I LOVE YOU GRANDMA!"
   puts "NO, NOT SINCE 1938!"
-  else speak_to_grandma(phrase) == "Hi Nana, how are you?"
+  else speak_to_grandma == "Hi Nana, how are you?"
   puts "HUH?! SPEAK UP, SONNY!"
 end
-
-speak_to_grandma(says)
